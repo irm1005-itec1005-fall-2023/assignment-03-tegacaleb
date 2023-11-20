@@ -60,7 +60,7 @@ function addToDoItem(text) {
     }
     todoItems.push(newTodo);
   }
-  console.log("NOT YET IMPLEMENTED"); // Remove this line when you start working on the function
+  
 }
 
 // Function to remove a todo to the list
@@ -77,7 +77,7 @@ function removeToDoItem(todoId) {
   } else {
     console.error("Todo not found");
   }
-  console.log("NOT YET IMPLEMENTED"); // Remove this line when you start working on the function
+  
 }
 
 // Function to mark a task as completed
@@ -94,7 +94,7 @@ function markToDoItemAsCompleted(todoId) {
     displayTasks();
   }
     }
-console.log("NOT YET IMPLEMENTED"); // Remove this line when you start working on the function
+
 
   
 
